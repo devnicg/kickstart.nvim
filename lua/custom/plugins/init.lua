@@ -2,11 +2,14 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+
 return {
   {
     'akinsho/toggleterm.nvim',
     version = '*',
     opts = {--[[ things you want to change go here]]
+      direction = 'float',
+      open_mapping = [[<c-:>]],
     },
   },
 }
